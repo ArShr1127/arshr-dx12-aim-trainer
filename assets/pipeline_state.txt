@@ -1,0 +1,13 @@
+# Edit this file while the app is running, then press R in the render window.
+# Available keys:
+# clearColor=r,g,b,a
+# wireframe=true|false
+# backfaceCulling=true|false
+# autoRotate=true|false
+# fovDegrees=25..100
+
+clearColor=0.02,0.03,0.06,1.0
+wireframe=false
+backfaceCulling=false
+autoRotate=true
+fovDegrees=60

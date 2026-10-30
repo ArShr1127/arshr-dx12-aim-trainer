@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6D80B556-BD60-491F-A6FB-06724F9E73A2}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx</Extensions>
+    </Filter>
+    <Filter Include="Project Files">
+      <UniqueIdentifier>{1E24EC17-8106-4B42-935E-35BE4A3565F2}</UniqueIdentifier>
+      <Extensions>txt;md;json</Extensions>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{E68B439C-CE65-499D-96D5-2145F60F261A}</UniqueIdentifier>
+      <Extensions>hlsl;txt</Extensions>
+    </Filter>
+    <Filter Include="Source Files\App">
+      <UniqueIdentifier>{C8B4D925-F280-4115-8E7D-09A236E857B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{9F1A7F99-A64B-4B00-A797-0482B69A6C4F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Training">
+      <UniqueIdentifier>{A89E2AD2-D209-4823-91E8-902650169231}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Training\AimTrainer">
+      <UniqueIdentifier>{3F1E36BE-2C8F-4F1F-9C8F-92B4AF8777D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering">
+      <UniqueIdentifier>{463EF9ED-BA3F-4E19-A9C0-F8D7EBB76686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lighting">
+      <UniqueIdentifier>{AEB38E9B-40EA-4E08-8F90-4546F8F5E431}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\App\Dx12AppLifecycle.cpp">
+      <Filter>Source Files\App</Filter>
+    </ClCompile>
+    <ClCompile Include="src\App\Dx12AppSync.cpp">
+      <Filter>Source Files\App</Filter>
+    </ClCompile>
+    <ClCompile Include="src\App\Dx12AppWindow.cpp">
+      <Filter>Source Files\App</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DxHelpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Geometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Lighting\LightSettings.cpp">
+      <Filter>Source Files\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Rendering\RendererPipeline.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Training\AimTrainer\Input.cpp">
+      <Filter>Source Files\Training\AimTrainer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Training\AimTrainer\Lifecycle.cpp">
+      <Filter>Source Files\Training\AimTrainer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Training\AimTrainer\Modes.cpp">
+      <Filter>Source Files\Training\AimTrainer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Training\AimTrainer\Resources.cpp">
+      <Filter>Source Files\Training\AimTrainer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Training\AimTrainer\Scores.cpp">
+      <Filter>Source Files\Training\AimTrainer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Training\AimTrainer\Targeting.cpp">
+      <Filter>Source Files\Training\AimTrainer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\EditorPanels.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\ModelEditor.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\App\AppConfig.h">
+      <Filter>Source Files\App</Filter>
+    </ClInclude>
+    <ClInclude Include="src\App\Dx12App.h">
+      <Filter>Source Files\App</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DxHelpers.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Geometry.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Lighting\LightSettings.h">
+      <Filter>Source Files\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RenderTypes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\pipeline_state.txt">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="assets\shaders\basic.hlsl">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="CMakeLists.txt">
+      <Filter>Project Files</Filter>
+    </None>
+    <None Include="CMakePresets.json">
+      <Filter>Project Files</Filter>
+    </None>
+    <None Include="README.md">
+      <Filter>Project Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
